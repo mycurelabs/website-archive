@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v3 · The first Nuxt site, through the pandemic · MYCURE Website Archive</title>
+<meta name="description" content="Every major version of the MYCURE website, from 2018 to today.">
+<link rel="icon" href="../assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="../index.html"><img src="../assets/mycure-logo.svg" alt="" width="28" height="28"><span>MYCURE</span><em>Website Archive</em></a>
+  <a class="nav-link" href="https://mycureapp.com" rel="noopener">Visit mycureapp.com →</a>
+</div></header>
+<section class="vhero"><div class="wrap">
+  <a class="back" href="../index.html">← All versions</a>
+  <div class="card-meta"><span class="pill">v3</span><span>Mar 2020 – Mar 2021</span></div>
+  <h1>The first Nuxt site, through the pandemic</h1>
+  <p class="lede">Server-rendered with Nuxt, and rebuilt for a world under lockdown.</p>
+</div></section>
+<main class="wrap vmain">
+  <article class="story">
+    <p>Pull request #185 moved the website to Nuxt in late March 2020, the same weeks the Philippines entered lockdown. The site responded quickly: a Fight COVID-19 page offered a free EMR system for LGUs and NGOs, and telehealth and virtual clinics became headline features (&quot;Everything you need to build your virtual practice&quot;).</p><p>This version also added pages for hospitals and medical enterprises, a public directory of doctors and clinics, online booking through the patient portal (February 2021), and per-clinic doctor schedules. With 2,907 commits in a single year, it was the website&#x27;s most intense period of development.</p>
+    <ul class="highlights"><li>Moved to Nuxt for server rendering</li><li>Fight COVID-19: free EMR for LGUs and NGOs</li><li>Telehealth, directory and online booking</li></ul>
+    <p class="note">The /hospitals and /pricing pages from this version loaded data from an API that no longer exists, so they could not be captured.</p>
+  </article>
+  <aside class="facts"><dl><dt>Era</dt><dd>Mar 2020 – Mar 2021</dd><dt>Stack</dt><dd>Nuxt 2.12 · Vuetify</dd><dt>Snapshot commit</dt><dd><a href="https://github.com/mycurelabs/mycure.md/commit/59acf6f03"><code>59acf6f03</code></a></dd><dt>Commits in this era</dt><dd>2,907</dd><dt>Main contributors</dt><dd>Marc Almond Valleza, Gerald Canonizado, Jofferson R. Tiquez, Jason Jamora</dd></dl></aside>
+</main>
+<section class="wrap gallery-wrap">
+  <h2 class="section-title">Screenshots <span>6 pages · click to zoom</span></h2>
+  <div class="gallery">
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/01-home.jpg" data-title="v3 · Home">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/01-home.jpg" alt="Home">
+      <span>Home</span>
+    </button>
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/02-doctors-clinics.jpg" data-title="v3 · Doctors Clinics">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/02-doctors-clinics.jpg" alt="Doctors Clinics">
+      <span>Doctors Clinics</span>
+    </button>
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/04-enterprise.jpg" data-title="v3 · Enterprise">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/04-enterprise.jpg" alt="Enterprise">
+      <span>Enterprise</span>
+    </button>
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/06-features.jpg" data-title="v3 · Features">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/06-features.jpg" alt="Features">
+      <span>Features</span>
+    </button>
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/07-fight-covid-19.jpg" data-title="v3 · Fight COVID-19">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/07-fight-covid-19.jpg" alt="Fight COVID-19">
+      <span>Fight COVID-19</span>
+    </button>
+    <button class="shot" data-full="../screenshots/v3-2021-nuxt-legacy/08-our-story.jpg" data-title="v3 · Our Story">
+      <img loading="lazy" src="../thumbs/v3-2021-nuxt-legacy/08-our-story.jpg" alt="Our Story">
+      <span>Our Story</span>
+    </button>
+  </div>
+</section>
+<nav class="wrap pager"><a href="v2-2020-vuecli.html"><small>← Previous</small>Vue CLI and clinic-type sites</a><a class="next" href="extra-2021-05-pricing.html"><small>Next →</small>Peso pricing panel</a></nav>
+<footer class="foot"><div class="wrap">
+  <p>Screenshots were rendered in November 2026 by checking out each version from <a href="https://github.com/mycurelabs/mycure.md">mycurelabs/mycure.md</a> and running it locally. Pages that loaded data from retired APIs could not be captured.</p>
+  <p>© MYCURE. Built with care for people who care for people.</p>
+</div></footer>
+<div class="viewer" id="viewer" hidden>
+  <div class="viewer-bar">
+    <div class="viewer-title" id="viewer-title"></div>
+    <div class="viewer-tools">
+      <button data-act="prev" aria-label="Previous page">‹</button>
+      <button data-act="out" aria-label="Zoom out">−</button>
+      <button data-act="fit" id="viewer-zoom">100%</button>
+      <button data-act="in" aria-label="Zoom in">+</button>
+      <button data-act="next" aria-label="Next page">›</button>
+      <a id="viewer-open" target="_blank" rel="noopener" aria-label="Open original">↗</a>
+      <button data-act="close" aria-label="Close">✕</button>
+    </div>
+  </div>
+  <div class="viewer-stage" id="viewer-stage"><img id="viewer-img" alt=""></div>
+  <div class="viewer-hint">Scroll to move · Ctrl/⌘ + scroll, pinch, or +/− to zoom · Drag to pan · Esc to close</div>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

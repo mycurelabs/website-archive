@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Extra · Peso pricing panel · MYCURE Website Archive</title>
+<meta name="description" content="Every major version of the MYCURE website, from 2018 to today.">
+<link rel="icon" href="../assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="../index.html"><img src="../assets/mycure-logo.svg" alt="" width="28" height="28"><span>MYCURE</span><em>Website Archive</em></a>
+  <a class="nav-link" href="https://mycureapp.com" rel="noopener">Visit mycureapp.com →</a>
+</div></header>
+<section class="vhero"><div class="wrap">
+  <a class="back" href="../index.html">← All versions</a>
+  <div class="card-meta"><span class="pill">Extra</span><span>May 2021</span></div>
+  <h1>Peso pricing panel</h1>
+  <p class="lede">The last time MYCURE&#x27;s plans were shown with fixed ₱ prices.</p>
+</div></section>
+<main class="wrap vmain">
+  <article class="story">
+    <p>In May 2021 a new pricing panel added four clinic plans to the product pages: Lite at ₱4,999, Premium at ₱9,999 and Platinum at ₱14,999 per clinic per month, plus a custom Enterprise plan. The plans scaled by users, storage and teleconsult fees, and unlocked modules such as laboratory, imaging, PME and pharmacy.</p><p>A day later the prices moved from hard-coded values to subscription packages fetched from the MYCURE API, with Stripe checkout. That API is no longer reachable, so this commit is the last point in history where the plans render as they appeared.</p>
+    <ul class="highlights"><li>Lite ₱4,999 · Premium ₱9,999 · Platinum ₱14,999</li><li>Enterprise: contact us</li></ul>
+    
+  </article>
+  <aside class="facts"><dl><dt>Era</dt><dd>May 2021</dd><dt>Stack</dt><dd>Nuxt 2.15</dd><dt>Snapshot commit</dt><dd><a href="https://github.com/mycurelabs/mycure.md/commit/9e87727df"><code>9e87727df</code></a></dd><dt>Main contributors</dt><dd>Marc Almond Valleza</dd></dl></aside>
+</main>
+<section class="wrap gallery-wrap">
+  <h2 class="section-title">Screenshots <span>1 page · click to zoom</span></h2>
+  <div class="gallery">
+    <button class="shot" data-full="../screenshots/extra-2021-05-pricing/01-clinics-pricing.jpg" data-title="Extra · Clinics Pricing">
+      <img loading="lazy" src="../thumbs/extra-2021-05-pricing/01-clinics-pricing.jpg" alt="Clinics Pricing">
+      <span>Clinics Pricing</span>
+    </button>
+  </div>
+</section>
+<nav class="wrap pager"><a href="v3-2021-nuxt-legacy.html"><small>← Previous</small>The first Nuxt site, through the pandemic</a><a class="next" href="v4-2021-nuxt-v6.9.html"><small>Next →</small>Website v6.9: the illustrated landscape</a></nav>
+<footer class="foot"><div class="wrap">
+  <p>Screenshots were rendered in November 2026 by checking out each version from <a href="https://github.com/mycurelabs/mycure.md">mycurelabs/mycure.md</a> and running it locally. Pages that loaded data from retired APIs could not be captured.</p>
+  <p>© MYCURE. Built with care for people who care for people.</p>
+</div></footer>
+<div class="viewer" id="viewer" hidden>
+  <div class="viewer-bar">
+    <div class="viewer-title" id="viewer-title"></div>
+    <div class="viewer-tools">
+      <button data-act="prev" aria-label="Previous page">‹</button>
+      <button data-act="out" aria-label="Zoom out">−</button>
+      <button data-act="fit" id="viewer-zoom">100%</button>
+      <button data-act="in" aria-label="Zoom in">+</button>
+      <button data-act="next" aria-label="Next page">›</button>
+      <a id="viewer-open" target="_blank" rel="noopener" aria-label="Open original">↗</a>
+      <button data-act="close" aria-label="Close">✕</button>
+    </div>
+  </div>
+  <div class="viewer-stage" id="viewer-stage"><img id="viewer-img" alt=""></div>
+  <div class="viewer-hint">Scroll to move · Ctrl/⌘ + scroll, pinch, or +/− to zoom · Drag to pan · Esc to close</div>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>
