@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>v3 · The first Nuxt site, through the pandemic · MYCURE Website Archive</title>
-<meta name="description" content="Every major version of the MYCURE website, from 2018 to today.">
+<meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="../assets/favicon-32x32.png">
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,6 @@
 <body>
 <header class="nav"><div class="wrap nav-inner">
   <a class="brand" href="../index.html"><img src="../assets/mycure-logo.svg" alt="" width="28" height="28"><span>MYCURE</span><em>Website Archive</em></a>
-  <a class="nav-link" href="https://mycureapp.com" rel="noopener">Visit mycureapp.com →</a>
 </div></header>
 <section class="vhero"><div class="wrap">
   <a class="back" href="../index.html">← All versions</a>
@@ -25,9 +24,8 @@
 </div></section>
 <main class="wrap vmain">
   <article class="story">
-    <p>Pull request #185 moved the website to Nuxt in late March 2020, the same weeks the Philippines entered lockdown. The site responded quickly: a Fight COVID-19 page offered a free EMR system for LGUs and NGOs, and telehealth and virtual clinics became headline features (&quot;Everything you need to build your virtual practice&quot;).</p><p>This version also added pages for hospitals and medical enterprises, a public directory of doctors and clinics, online booking through the patient portal (February 2021), and per-clinic doctor schedules. With 2,907 commits in a single year, it was the website&#x27;s most intense period of development.</p>
-    <ul class="highlights"><li>Moved to Nuxt for server rendering</li><li>Fight COVID-19: free EMR for LGUs and NGOs</li><li>Telehealth, directory and online booking</li></ul>
-    <p class="note">The /hospitals and /pricing pages from this version loaded data from an API that no longer exists, so they could not be captured.</p>
+    <p>Moved to Nuxt in March 2020 (PR #185). 2,907 commits in one year, the busiest period.</p><p>Pandemic-era additions: Fight COVID-19 (free EMR for LGUs/NGOs), telehealth, directory and online booking.</p>
+    <p class="note">/hospitals and /pricing missing (retired API).</p>
   </article>
   <aside class="facts"><dl><dt>Era</dt><dd>Mar 2020 – Mar 2021</dd><dt>Stack</dt><dd>Nuxt 2.12 · Vuetify</dd><dt>Snapshot commit</dt><dd><a href="https://github.com/mycurelabs/mycure.md/commit/59acf6f03"><code>59acf6f03</code></a></dd><dt>Commits in this era</dt><dd>2,907</dd><dt>Main contributors</dt><dd>Marc Almond Valleza, Gerald Canonizado, Jofferson R. Tiquez, Jason Jamora</dd></dl></aside>
 </main>
@@ -62,8 +60,7 @@
 </section>
 <nav class="wrap pager"><a href="v2-2020-vuecli.html"><small>← Previous</small>Vue CLI and clinic-type sites</a><a class="next" href="extra-2021-05-pricing.html"><small>Next →</small>Peso pricing panel</a></nav>
 <footer class="foot"><div class="wrap">
-  <p>Screenshots were rendered in November 2026 by checking out each version from <a href="https://github.com/mycurelabs/mycure.md">mycurelabs/mycure.md</a> and running it locally. Pages that loaded data from retired APIs could not be captured.</p>
-  <p>© MYCURE. Built with care for people who care for people.</p>
+  <p>Internal. Rendered Nov 2026 from <a href="https://github.com/mycurelabs/mycure.md">mycurelabs/mycure.md</a>. Pages that depended on retired APIs are missing.</p>
 </div></footer>
 <div class="viewer" id="viewer" hidden>
   <div class="viewer-bar">

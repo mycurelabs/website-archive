@@ -21,11 +21,7 @@ VERSIONS = [
         "commits": "245",
         "people": "Joff Tiquez, Centipede",
         "summary": "Where it all began: a prerendered Vue site with coffee-named plans.",
-        "history": [
-            "The repository's first commit landed on March 12, 2018. Over the next three months the first public MYCURE website took shape as a Vue 2 single-page app, prerendered with Puppeteer so search engines could read it and deployed to Firebase Hosting. Early in June the team swapped Vuetify for Bootstrap and rebuilt the home page panel by panel, then shipped what the commit log calls the \"v4 release\" on June 27, 2018.",
-            "The founders' story starts with coffee, and so did the pricing. Plans were named after coffee beans: Arabica was free, Robusta was ₱299 per clinic per month, and Liberica was ₱999 per clinic per month. The modules page invited clinics to \"create the perfect blend\" of EMR, billing, inventory and other modules.",
-        ],
-        "highlights": ["First public MYCURE website", "Coffee-themed plans: Arabica, Robusta, Liberica", "\"MYCURE cares for people who care for people\""],
+        "history": ["First commit March 12, 2018. Vue 2 SPA, prerendered with Puppeteer, hosted on Firebase. Shipped June 27, 2018.", "Coffee-named plans: Arabica (free), Robusta (₱299) and Liberica (₱999) per clinic per month."],
     },
     {
         "slug": "v1-2018",
@@ -37,11 +33,7 @@ VERSIONS = [
         "commits": "335",
         "people": "Mark Dinong, Joff Tiquez, Centipede, Marc Almond Valleza",
         "summary": "\"Enabling Heroes. Saving Lives.\" One site, three products.",
-        "history": [
-            "In November 2018 the site was restructured around products instead of plans. The Clinic Management System (CMS) and the Hospital Information System (HIS) each got a dedicated page. Pricing and the features page were taken down, and the signup flow was updated. A Dental Clinic System page followed in February 2019.",
-            "The home page introduced the line \"Enabling Heroes. Saving Lives.\" along with the promise that would stay with MYCURE for years: \"Syncs Online, Works Offline.\", which described the hybrid cloud and local-server technology later known as SyncBase. The illustrated characters, the potted plant and the almonds in the footer CTA date from this era.",
-        ],
-        "highlights": ["Separate CMS, HIS and Dental product pages", "\"Syncs Online, Works Offline.\"", "Pricing removed in favour of demos and signup"],
+        "history": ["November 2018: site reorganized around products (CMS, HIS, then Dental in Feb 2019). Pricing and features pages removed.", "Introduced “Enabling Heroes. Saving Lives.” and “Syncs Online, Works Offline.”"],
     },
     {
         "slug": "v2-2020-vuecli",
@@ -53,11 +45,7 @@ VERSIONS = [
         "commits": "1,800",
         "people": "Marc Almond Valleza, Francis Ryan Marquez, Jofferson R. Tiquez",
         "summary": "A rebuild on Vue CLI, organised by how doctors practise.",
-        "history": [
-            "In June 2019 the project moved to Vue CLI 3 through the refactor/upgrade branch, and the package was versioned 4.20.x with release tags v4.20.1 to v4.20.5. With 1,800 commits in about nine months, this was the busiest stretch the website had seen so far.",
-            "The site was reorganised around types of practice: Doctors' Clinics for solo and group practice, Multispecialty Clinics and Specialized Clinics, each with its own signup flow and Stripe-backed payment. A pricing page returned, including an \"Always FREE\" tier for solo doctors, along with a features page, FAQs and MYCURE Solo.",
-        ],
-        "highlights": ["Pages for each practice type", "Self-serve signup with Stripe payment", "\"Optimize your clinic workflows and maximize its potential\""],
+        "history": ["Moved to Vue CLI 3 in June 2019 (v4.20.x). 1,800 commits in about 9 months.", "Pages by practice type: Doctors' Clinics, Multispecialty and Specialized Clinics. Self-serve signup with Stripe; pricing returned with a free solo tier."],
     },
     {
         "slug": "v3-2021-nuxt-legacy",
@@ -69,12 +57,8 @@ VERSIONS = [
         "commits": "2,907",
         "people": "Marc Almond Valleza, Gerald Canonizado, Jofferson R. Tiquez, Jason Jamora",
         "summary": "Server-rendered with Nuxt, and rebuilt for a world under lockdown.",
-        "history": [
-            "Pull request #185 moved the website to Nuxt in late March 2020, the same weeks the Philippines entered lockdown. The site responded quickly: a Fight COVID-19 page offered a free EMR system for LGUs and NGOs, and telehealth and virtual clinics became headline features (\"Everything you need to build your virtual practice\").",
-            "This version also added pages for hospitals and medical enterprises, a public directory of doctors and clinics, online booking through the patient portal (February 2021), and per-clinic doctor schedules. With 2,907 commits in a single year, it was the website's most intense period of development.",
-        ],
-        "highlights": ["Moved to Nuxt for server rendering", "Fight COVID-19: free EMR for LGUs and NGOs", "Telehealth, directory and online booking"],
-        "note": "The /hospitals and /pricing pages from this version loaded data from an API that no longer exists, so they could not be captured.",
+        "history": ["Moved to Nuxt in March 2020 (PR #185). 2,907 commits in one year, the busiest period.", "Pandemic-era additions: Fight COVID-19 (free EMR for LGUs/NGOs), telehealth, directory and online booking."],
+        "note": "/hospitals and /pricing missing (retired API).",
     },
     {
         "slug": "extra-2021-05-pricing",
@@ -86,11 +70,7 @@ VERSIONS = [
         "commits": "",
         "people": "Marc Almond Valleza",
         "summary": "The last time MYCURE's plans were shown with fixed ₱ prices.",
-        "history": [
-            "In May 2021 a new pricing panel added four clinic plans to the product pages: Lite at ₱4,999, Premium at ₱9,999 and Platinum at ₱14,999 per clinic per month, plus a custom Enterprise plan. The plans scaled by users, storage and teleconsult fees, and unlocked modules such as laboratory, imaging, PME and pharmacy.",
-            "A day later the prices moved from hard-coded values to subscription packages fetched from the MYCURE API, with Stripe checkout. That API is no longer reachable, so this commit is the last point in history where the plans render as they appeared.",
-        ],
-        "highlights": ["Lite ₱4,999 · Premium ₱9,999 · Platinum ₱14,999", "Enterprise: contact us"],
+        "history": ["Pricing panel added May 2021: Lite ₱4,999, Premium ₱9,999, Platinum ₱14,999 per clinic per month, plus Enterprise.", "Prices moved to the API a day later. This commit is the last point where the plans still render."],
     },
     {
         "slug": "v4-2021-nuxt-v6.9",
@@ -102,11 +82,7 @@ VERSIONS = [
         "commits": "1,133",
         "people": "Marc Almond Valleza, Markus, Jofferson R. Tiquez",
         "summary": "A fresh Nuxt project with hand-drawn hills, heroes and a page for every product.",
-        "history": [
-            "On March 30, 2021 the old code was deleted and the website restarted as a fresh Nuxt 2.15 project, released as version 6.9.0 that September. Its signature look was a flat, illustrated landscape of hills, clouds and healthcare heroes, set against the familiar MYCURE blue.",
-            "Each product now had a dedicated page: Doctors (\"Bring Out the Hero in You\"), Clinics, Diagnostics, Telehealth, Booking and the new Mobile Labs. The patient-facing directory gained location search and redesigned result cards, and the SyncBase panel explained how MYCURE keeps working without an internet connection.",
-        ],
-        "highlights": ["Restarted as a new Nuxt project, v6.9.0", "Pages for Doctors, Clinics, Diagnostics, Telehealth, Booking and Mobile Labs", "Directory with location search"],
+        "history": ["Fresh Nuxt 2.15 project from March 30, 2021; released as v6.9.0 in September.", "Illustrated landscape style. Pages for Doctors, Clinics, Diagnostics, Telehealth, Booking and Mobile Labs; directory with location search."],
     },
     {
         "slug": "v5-2024-nuxt-selfserve",
@@ -118,11 +94,7 @@ VERSIONS = [
         "commits": "999",
         "people": "Markus, Marc Almond Valleza, Joff Tiquez",
         "summary": "Clinic overhaul, mobile overhaul, and the last days of online signup.",
-        "history": [
-            "The clinic overhaul (December 2021) and the mobile layout overhaul (January 2022) produced this version's bold blue panels and the \"Enterprise-Grade Healthcare Solutions\" home page. Specialty pages for skin and aesthetic clinics, dental clinics and hospitals sat alongside Diagnostics, Telehealth and Booking, and Intercom was added in January 2023.",
-            "Development slowed after 2022: there were 228 commits that year and 46 in 2023. These screenshots show the site exactly as it stood on April 2, 2024, the last commit before self-serve signup and public pricing were switched off.",
-        ],
-        "highlights": ["Clinic and mobile layout overhauls", "Skin, Dental and Hospital pages", "Last version with self-serve signup"],
+        "history": ["Clinic overhaul (Dec 2021) and mobile overhaul (Jan 2022). Added Skin, Dental and Hospital pages; Intercom in 2023.", "Activity slowed after 2022. Snapshot is April 2, 2024, the last commit with self-serve signup."],
     },
     {
         "slug": "v6-2024-nuxt-v8",
@@ -134,11 +106,7 @@ VERSIONS = [
         "commits": "50",
         "people": "Joff Tiquez",
         "summary": "Signup and pricing come down, Contact Us goes up.",
-        "history": [
-            "On April 2, 2024 a single commit changed how MYCURE sells: it removed signup, hid pricing, turned every \"Get started\" button into \"Contact us\", and added a Calendly demo link. The home page now read \"Enterprise-Grade Clinic Management Solutions\".",
-            "Over the summer, booking moved to Cal.com embeds with sign-in and cancellation flows. The package was bumped to 8.0.0 in September 2024, and this became the final version of the Vue/Nuxt website, which had run for more than six years.",
-        ],
-        "highlights": ["Sales-led: Contact Us replaces signup", "Cal.com booking integration", "Last Vue/Nuxt version"],
+        "history": ["April 2, 2024: signup removed, pricing hidden, CTAs changed to Contact Us, Calendly demo added.", "Booking moved to Cal.com. Bumped to v8.0.0 (Sep 2024), the last Vue/Nuxt version."],
     },
     {
         "slug": "v7-2025-next-v10-launch",
@@ -150,11 +118,7 @@ VERSIONS = [
         "commits": "1",
         "people": "Joff Tiquez",
         "summary": "One commit replaced six years of Vue with React.",
-        "history": [
-            "\"refactor: version 10\" landed on July 4, 2025 as a single commit touching 194 files. It replaced the Nuxt codebase with a Next.js 14 App Router site built with React 18, Tailwind CSS, shadcn/ui and Framer Motion, and introduced a clean, light SaaS style.",
-            "The launch was one long landing page plus a Download page. For a short time it carried a USD pricing table, with Starter at $49, Professional at $149 and Enterprise at $349 per month, and a 30-day trial. The table was removed again by late August 2025.",
-        ],
-        "highlights": ["Next.js 14 + React 18 rewrite", "USD pricing: $49 / $149 / $349", "Download page for desktop apps"],
+        "history": ["“refactor: version 10” on July 4, 2025: one commit (194 files) replacing Nuxt with Next.js 14, Tailwind and shadcn/ui.", "Single landing page plus Download. Briefly showed USD pricing ($49/$149/$349), removed by late August."],
     },
     {
         "slug": "v8-2025-next-v10-final",
@@ -166,11 +130,7 @@ VERSIONS = [
         "commits": "59",
         "people": "Val Escutin, Joff Tiquez",
         "summary": "Every product gets a page again, now with motion and dark mode.",
-        "history": [
-            "The version-10-phase-2 branch, merged in September 2025, brought back dedicated pages for Clinics, Diagnostics, Booking, Skin, Dental, Hospital, Telehealth, Corporate, Mobile Labs and SyncBase Technology. They followed shared layouts with animated statistics, sticky scroll storytelling and a dark mode.",
-            "In October 2025 security headers and a security policy were added. On November 11, 2025 a content-strategy pass rewrote the landing page copy, which makes this the last version before the December redesign.",
-        ],
-        "highlights": ["Ten product pages", "Animated stats and scrollytelling", "Light and dark themes"],
+        "history": ["Phase 2 (merged Sep 2025) restored product pages for Clinics, Diagnostics, Booking, Skin, Dental, Hospital, Telehealth, Corporate, Mobile Labs and SyncBase.", "Security headers added Oct 2025; landing copy rewritten Nov 11, 2025."],
     },
     {
         "slug": "v9-2025-dec-redesign",
@@ -182,11 +142,7 @@ VERSIONS = [
         "commits": "12",
         "people": "Val Escutin, Joff Tiquez",
         "summary": "\"Healthcare made simple. Your patients, first.\"",
-        "history": [
-            "On December 22, 2025 a website redesign brief (v2.0) set out to reposition MYCURE for enterprise customers. The homepage redesign and an \"enterprise-first website overhaul with section reorganization\" followed within days and were merged as pull request #1179 on December 30, 2025.",
-            "The new home page led with \"Healthcare made simple. Your patients, first.\" and live platform numbers (more than 13 million medical records). It also gained HIPAA and offline-first proof points and a seven-day onboarding plan.",
-        ],
-        "highlights": ["Enterprise repositioning brief v2.0", "New home page structure", "Platform-scale statistics"],
+        "history": ["Redesign brief v2.0 (Dec 22, 2025) to reposition for enterprise; merged as PR #1179 on Dec 30.", "New home page led with “Healthcare made simple. Your patients, first.” and platform stats."],
     },
     {
         "slug": "v10-2026-current",
@@ -198,11 +154,7 @@ VERSIONS = [
         "commits": "132",
         "people": "Val Escutin, Joff Tiquez",
         "summary": "\"Run the clinic you've always envisioned.\"",
-        "history": [
-            "2026 brought Lora serif headlines, better mobile navigation and faster page loads, then a long run of trust and discoverability work: structured data and AI-search optimisation, reworked Terms and Privacy Policy, a Security Overview, and a Subprocessor List.",
-            "New Culture and Careers pages tell the team's story, and security upgrades moved the site to Next.js 15 and React 19. These screenshots reflect the site as of October 2026.",
-        ],
-        "highlights": ["Security Overview and Subprocessors", "Culture and Careers pages", "Next.js 15 + React 19"],
+        "history": ["2026: Lora headlines, mobile and performance fixes, SEO/AI-search work, reworked legal pages, Security Overview and Subprocessors.", "Added Culture and Careers; upgraded to Next.js 15 and React 19. Snapshot as of October 2026."],
     },
 ]
 
@@ -221,7 +173,7 @@ def head(title, prefix):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
-<meta name="description" content="Every major version of the MYCURE website, from 2018 to today.">
+<meta name="robots" content="noindex, nofollow">
 <link rel="icon" href="{prefix}assets/favicon-32x32.png">
 <link rel="apple-touch-icon" href="{prefix}assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -232,14 +184,12 @@ def head(title, prefix):
 <body>
 <header class="nav"><div class="wrap nav-inner">
   <a class="brand" href="{prefix}index.html"><img src="{prefix}assets/mycure-logo.svg" alt="" width="28" height="28"><span>MYCURE</span><em>Website Archive</em></a>
-  <a class="nav-link" href="https://mycureapp.com" rel="noopener">Visit mycureapp.com →</a>
 </div></header>
 """
 
 
 FOOT = """<footer class="foot"><div class="wrap">
-  <p>Screenshots were rendered in November 2026 by checking out each version from <a href="{repo}">mycurelabs/mycure.md</a> and running it locally. Pages that loaded data from retired APIs could not be captured.</p>
-  <p>© MYCURE. Built with care for people who care for people.</p>
+  <p>Internal. Rendered Nov 2026 from <a href="{repo}">mycurelabs/mycure.md</a>. Pages that depended on retired APIs are missing.</p>
 </div></footer>
 <div class="viewer" id="viewer" hidden>
   <div class="viewer-bar">
@@ -275,9 +225,9 @@ def build_index():
     out = [head("MYCURE Website Archive", "")]
     total = sum(len(files_of(v)) for v in VERSIONS)
     out.append(f"""<section class="hero"><div class="wrap">
-  <p class="eyebrow">2018 — 2026</p>
-  <h1>Eight years of <span>MYCURE</span> on the web</h1>
-  <p class="lede">The MYCURE website has been rebuilt many times: from a prerendered Vue site with coffee-named plans, through the pandemic years on Nuxt, to today's Next.js site. This archive keeps a full-page screenshot of every major version.</p>
+  <p class="eyebrow">Internal · MYCURE est. 2016</p>
+  <h1><span>MYCURE</span> website archive</h1>
+  <p class="lede">Every major version of the website, 2018 to today.</p>
   <div class="stats"><div><b>{len([v for v in VERSIONS if v['label'] != 'Extra'])}</b><span>major versions</span></div><div><b>{total}</b><span>full-page screenshots</span></div><div><b>7,600+</b><span>commits</span></div><div><b>4</b><span>frameworks</span></div></div>
 </div></section>
 <main class="wrap timeline">
@@ -320,7 +270,6 @@ def build_version(i):
 <main class="wrap vmain">
   <article class="story">
     {''.join(f'<p>{html.escape(par)}</p>' for par in v['history'])}
-    <ul class="highlights">{''.join(f'<li>{html.escape(h)}</li>' for h in v['highlights'])}</ul>
     {f'<p class="note">{html.escape(v["note"])}</p>' if v.get('note') else ''}
   </article>
   <aside class="facts"><dl>{''.join(f'<dt>{k}</dt><dd>{val}</dd>' for k, val in facts)}</dl></aside>
